@@ -1,0 +1,12 @@
+.gameCard {
+  border: 1px solid #76EAD7;
+  margin: 5%;
+  padding: 25px;
+}
+
+.gameCard:hover {
+  background-color: #F2F4C3;
+  color: #181a1d;
+  border: 2px solid #FC92E3;
+
+}
