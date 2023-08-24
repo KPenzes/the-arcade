@@ -3,7 +3,10 @@
   margin: 5%;
   padding: 25px;
 }
-
+.gameCard li {
+  list-style: none;
+  font-size: 40px;
+}
 .gameCard:hover {
   background-color: #F2F4C3;
   color: #181a1d;

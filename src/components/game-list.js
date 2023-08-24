@@ -3,10 +3,10 @@ import GameCard from '../components/game-card'
 
 export default function GameList({ games }) {
   return (
-    <div className={styles.gameList}>
+    <ul className={styles.gameList}>
       {games.map((game) => (
-        <GameCard game={game}/>
+        <GameCard key={game.id} game={game}/>
       ))}
-    </div>
+    </ul>
   )
 }
